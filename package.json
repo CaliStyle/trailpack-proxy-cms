@@ -1,13 +1,19 @@
 {
   "name": "trailpack-proxy-cms",
   "version": "0.0.0",
-  "description": "proxy content management system",
+  "description": "CMS - Trailpack Content Management System for Proxy Engine",
   "homepage": "www.github.com/cali/trailpack-proxy-cms",
   "author": {
     "name": "Greg Pazo",
     "email": "greg@calistyletechnologies.com",
     "url": "https://cali-style.com"
   },
+  "contributors": [
+    {
+      "name": "scott-wyatt",
+      "url": "https://github.com/scott-wyatt"
+    }
+  ],
   "main": "index.js",
   "keywords": [
     "trailpack-proxy-cms",
