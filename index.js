@@ -2,7 +2,7 @@
 
 const Trailpack = require('trailpack')
 
-module.exports = class CmsTrailpack extends Trailpack {
+module.exports = class ProxyCMSTrailpack extends Trailpack {
 
   /**
    * TODO document method
