@@ -14,7 +14,7 @@ module.exports = class ProxyCMSTrailpack extends Trailpack {
   }
 
   /**
-   * TODO document method
+   * Adds Routes, Policies, and Agenda
    */
   configure () {
     return Promise.all([
