@@ -1,6 +1,8 @@
 'use strict'
 
 const Trailpack = require('trailpack')
+// const _ = require('lodash')
+const lib = require('./lib')
 
 module.exports = class ProxyCMSTrailpack extends Trailpack {
 
@@ -15,7 +17,11 @@ module.exports = class ProxyCMSTrailpack extends Trailpack {
    * TODO document method
    */
   configure () {
-
+    return Promise.all([
+      lib.ProxyCMS.addPolicies(this.app),
+      lib.ProxyCMS.addRoutes(this.app),
+      lib.ProxyCMS.addAgenda(this.app)
+    ])
   }
 
   /**
