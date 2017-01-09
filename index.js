@@ -20,7 +20,8 @@ module.exports = class ProxyCMSTrailpack extends Trailpack {
     return Promise.all([
       lib.ProxyCMS.addPolicies(this.app),
       lib.ProxyCMS.addRoutes(this.app),
-      lib.ProxyCMS.addAgenda(this.app)
+      lib.ProxyCMS.addAgenda(this.app),
+      lib.ProxyCMS.copyDefaults(this.app)
     ])
   }
 
