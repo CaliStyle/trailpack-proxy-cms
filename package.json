@@ -4,14 +4,15 @@
   "description": "CMS - Trailpack Content Management System for Proxy Engine",
   "homepage": "www.github.com/cali/trailpack-proxy-cms",
   "author": {
-    "name": "Greg Pazo",
-    "email": "greg@calistyletechnologies.com",
-    "url": "https://cali-style.com"
+    "name": "scott-wyatt",
+    "email": "scott@calistyletechnologies.com",
+    "url": "https://github.com/scott-wyatt"
   },
   "contributors": [
     {
-      "name": "scott-wyatt",
-      "url": "https://github.com/scott-wyatt"
+      "name": "Greg Pazo",
+      "email": "greg@calistyletechnologies.com",
+      "url": "https://cali-style.com"
     }
   ],
   "main": "index.js",
@@ -26,7 +27,9 @@
     "trailjs"
   ],
   "dependencies": {
-    "trailpack": "^2.0.0"
+    "proxy-generics-render": "0.0.3",
+    "trailpack": "^2.0.0",
+    "trailpack-proxy-engine": "^1.0.14"
   },
   "devDependencies": {
     "lodash": "^4.11.1",
@@ -40,7 +43,7 @@
     "test": "eslint . && mocha"
   },
   "engines": {
-    "node": ">= 4.0.0"
+    "node": ">= 6.0.0"
   },
   "eslintConfig": {
     "extends": "trails"

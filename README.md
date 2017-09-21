@@ -5,7 +5,9 @@
 [![Dependency Status][daviddm-image]][daviddm-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
 
-proxy content management system
+Proxy Engine Content Management System (CMS)
+
+UNDER DEVELOPMENT
 
 ## Install
 
